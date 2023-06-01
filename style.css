@@ -1,0 +1,78 @@
+.displayScreen{
+    background-color: #b2b9b7;
+    border-color:black;
+    border:10px solid rgba(47,47,47,1);
+    border-radius:4px;
+    width:410px;
+    height:100px;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-around;
+    align-items: flex-end;
+    font-size: 5.5em;
+    font-weight: initial;
+}
+
+.buttonContainer{
+    width:500px;
+    height:100px;
+    margin-top:20px;
+    display:flex;
+    flex-direction:row;
+}
+
+.buttonFormat{
+    border:none;
+    width:100px;
+    height:100px;
+    border: 1px solid;
+    border-radius:5px;
+    font-family:'Roboto', sans-serif;
+    font-weight:500;
+    font-size:20px;
+}
+
+#numberButton{
+    background-color: skyblue;
+    border-color:skyblue;
+    margin-right:10px;
+}
+
+#numberButton:hover{
+    background-color: gray;
+    border-color:gray;
+}
+
+#zeroButton{
+    background-color: skyblue;
+    border-color:skyblue;
+    width:320px;
+    margin-right:10px;
+}
+
+#zeroButton:hover{
+    background-color: gray;
+    border-color:gray;
+}
+
+#operatorButton{
+    background-color: green;
+    border-color: green;
+}
+
+#operatorButton:hover{
+    background-color: gray;
+    border-color:gray;
+}
+
+#clearButton{
+    background-color: lightcoral;
+    border-color: lightcoral;
+    width:320px;
+    margin-right:10px;
+}
+
+#clearButton:hover{
+    background-color: gray;
+    border-color:gray;
+}
